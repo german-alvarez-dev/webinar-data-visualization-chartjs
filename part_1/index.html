@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualización de datos con ChartJS</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+
+        <h1>Montañas rusas: los datos</h1>
+        <p>Visualización de estadísticas globales</p>
+
+        <hr>
+
+        <h2 class="loading">Esperando respuesta de la API...</h2>
+
+        <section class="cols-2">
+            <figure>
+                <p>Gráfico radial</p>
+                <h3>Comparativa global</h3>
+                <canvas id="chart1"></canvas>
+            </figure>
+
+            <figure>
+                <p>Gráfico de área polar</p>
+                <h3>Montañas rusas por país</h3>
+                <canvas id="chart2"></canvas>
+            </figure>
+        </section>
+
+        <section class="cols-1">
+            <figure>
+                <p>Gráfico lineal</p>
+                <h3>Construcciones por año</h3>
+                <canvas id="chart6"></canvas>
+            </figure>
+        </section>
+
+        <section class="cols-3">
+            <figure>
+                <p>Gráfico radial</p>
+                <h3>Altura</h3>
+                <canvas id="chart3"></canvas>
+            </figure>
+
+            <figure>
+                <p>Gráfico de <em>donut</em></p>
+                <h3>Modelos</h3>
+                <canvas id="chart4"></canvas>
+            </figure>
+
+            <figure>
+                <p>Gráfico de barras</p>
+                <h3>Fuerza G</h3>
+                <canvas id="chart5"></canvas>
+            </figure>
+        </section>
+
+    </main>
+
+    <!-- ChartJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+
+    <!-- Styles for charts -->
+    <script src="js/chartStyles.js"></script>
+
+    <!-- DCharts development -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
