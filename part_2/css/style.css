@@ -1,0 +1,99 @@
+body {
+  background: #181f38;
+  font-family: 'Poppins', monospace;
+  color: white;
+  font-size: .7em;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+html {
+  padding: 20px;
+  font-weight: 300;
+}
+
+main {
+    padding: 60px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 100;
+}
+
+h2, h3 {
+    font-size: 1.4em;
+    margin-bottom: 29px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    padding-bottom: 15px;
+    font-weight: 200;
+}
+
+hr {
+    border-color: white;
+    margin-bottom: 50px;
+}
+
+figure {
+    background-color: rgba(255,255,255,.05);
+    padding: 10px 10px 30px;
+}
+
+figure p {
+    margin-bottom: 7px;
+    font-size: .8em;
+}
+
+canvas {
+    width: 100%;
+}
+
+
+/* grid */
+
+[class*='cols'] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.cols-3 > * {
+    width: 33.33%;
+    margin: 10px
+}
+
+.cols-2 > * {
+    width: 50%;
+    margin: 10px
+}
+
+.cols-1 > * {
+    width: 100%;
+    margin: 10px
+}
+
+#chart6 {
+    max-height: 300px;
+}
+
+section {
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.running section {
+    opacity: 1
+}
+
+.loading {
+    position: absolute;
+    border: none;
+}
+
+.running .loading {
+    display: none;
+}
