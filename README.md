@@ -6,7 +6,7 @@ Explora algunas de las posibilidades de [Chartjs](https://www.chartjs.org/) cone
 
 ## Grabaciones
 - Vídeo completo del webinar (parte 1) [en este enlace](https://youtu.be/1R1tNZMnMmU?t=815).
-- Vídeo completo del webinar (parte 2) *próximamente*.
+- Vídeo completo del webinar (parte 2) [en este enlace](https://youtu.be/Hpa3Pdb7p5U)
 
 ## Instalación
 No requiere instalación.
